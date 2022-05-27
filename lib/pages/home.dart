@@ -1,10 +1,4 @@
-import 'dart:html';
-import 'dart:js';
-import 'package:word_time/pages/home.dart';
-import 'package:word_time/pages/location.dart';
-import 'package:word_time/pages/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:word_time/services/world_time.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -65,7 +59,7 @@ class _HomeState extends State<Home> {
                     },
                     icon: Icon(Icons.location_on,
                     color: Colors.white),
-                    label: Text('next page is location',
+                    label: Text('next location',
                     style: TextStyle(
                       color: Colors.white
                     ),),
